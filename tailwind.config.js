@@ -4,7 +4,7 @@ import {colors} from "./src/styles/colors"
 import {fontFamily} from "./src/styles/fontFamily"
 module.exports = {
   content: [
-    "./src/**/*.tsx"
+    "./src/**/*.{js,jsx,ts,tsx}"
   ],
   presets: [require("nativewind/preset")],
   theme: {
